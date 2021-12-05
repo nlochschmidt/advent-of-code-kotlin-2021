@@ -7,7 +7,8 @@ repositories {
 }
 
 dependencies {
-    implementation("io.kotest:kotest-runner-junit5:5.0.1")
+    testImplementation("io.kotest:kotest-runner-junit5:5.0.1")
+    testImplementation("io.kotest:kotest-framework-datatest:5.0.1")
 }
 
 tasks.withType<Test> {
