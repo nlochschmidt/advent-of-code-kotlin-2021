@@ -30,3 +30,9 @@ tasks {
         gradleVersion = "7.3"
     }
 }
+
+java {
+    toolchain {
+        version = JavaVersion.VERSION_17
+    }
+}
