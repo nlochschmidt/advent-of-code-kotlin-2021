@@ -42,8 +42,8 @@ fun initNextDay() {
             }
             
             fun main() {
-                println("Part 1: ${dayPrefix}.part1(readInput("$dayPrefix"))}")
-                println("Part 2: ${dayPrefix}.part2(readInput("$dayPrefix"))}")
+                println("Part 1: ${'$'}{${dayPrefix}.part1(readInput("$dayPrefix"))}")
+                println("Part 2: ${'$'}{${dayPrefix}.part2(readInput("$dayPrefix"))}")
             }
         """.trimIndent()
         )
